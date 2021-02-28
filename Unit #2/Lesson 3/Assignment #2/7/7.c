@@ -64,7 +64,7 @@ int main(void)
 	}
 	else
 	{
-		/* If otherwise, print a statement that shows the result factorial or zero */
+		/* If otherwise, print a statement that shows the factorial result of zero */
 		printf("Factorial = %d", factResult);
 	}
 

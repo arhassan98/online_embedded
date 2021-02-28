@@ -1,5 +1,5 @@
 /*****************************************************
-EX6:
+EX7:
 
 Write C program to calculate sum of natural numbers
 
@@ -33,13 +33,22 @@ int main(void)
 	/* Save the user's input in the desired variable */
 	scanf("%d", &num);
 
-	/* From the Mathematical Induction Theory, we can conclude that the formula of getting the sum of
-	   natural numbers between zero and any desired number is getting from: n*(n+1)/2,
-	   which n is the desired number. */
-	sum = num * (num + 1) / 2;
+	/* Check if user entered a positive number or not */
+	if(num > 0)
+	{
+		/* If yes, so from the Mathematical Induction Theory, we can conclude that the formula of getting the sum of
+		   natural numbers between zero and any desired number is getting from: n*(n+1)/2,
+		   which n is the desired number. */
+		sum = num * (num + 1) / 2;
 
-	/* Print a statement that shows the required sum */
-	printf("Sum = %d", sum);
+		/* Print a statement that shows the required sum */
+		printf("Sum = %d", sum);
+	}
+	else
+	{
+		/* If otherwise, print a statement that shows the user has entered a negative number */
+		printf("You entered a negative number.");
+	}
 
 	/* Return from main function */
 	return 0;

@@ -1,5 +1,5 @@
 /*****************************************************
-EX7:
+EX6:
 
 Write C program to calculate sum of natural numbers
 

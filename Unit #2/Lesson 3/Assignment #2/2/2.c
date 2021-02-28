@@ -22,7 +22,7 @@ G is consonant.
 /* Main program */
 int main(void)
 {
-	/* Local variable used to save the user's input */
+	/* A local variable used to save the user's input */
 	int8_t character;
 
 	/* Print a statement that asked the user to enter an alphabet */

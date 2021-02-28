@@ -1,5 +1,5 @@
 /*****************************************************
-EX1:
+EX2:
 
 Write C program to check vowel or consonant
 
